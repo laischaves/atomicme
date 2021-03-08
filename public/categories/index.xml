@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Laís Chaves</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on Laís Chaves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Teste</title>
+      <link>https://example.com/teste/</link>
+      <pubDate>Mon, 08 Mar 2021 13:13:01 -0300</pubDate>
+      
+      <guid>https://example.com/teste/</guid>
+      <description>Here we go again! don&amp;rsquo;t you grow up in a hurry
+your mama will be worried, ah
+\n It was all part of the story&amp;hellip;
+Even the scary parts&amp;hellip; </description>
+    </item>
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>
