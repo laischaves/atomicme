@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://laischaves.xyz/chocolatey-o-que-%C3%A9-e-por-que-usar/</loc>
+    <lastmod>2021-03-08T15:06:59-03:00</lastmod>
+  </url><url>
+    <loc>https://laischaves.xyz/</loc>
+    <lastmod>2021-03-08T15:06:59-03:00</lastmod>
+  </url><url>
+    <loc>https://laischaves.xyz/posts/</loc>
+    <lastmod>2021-03-08T15:06:59-03:00</lastmod>
+  </url><url>
+    <loc>https://laischaves.xyz/teste/</loc>
     <lastmod>2021-03-08T13:13:01-03:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/</loc>
-    <lastmod>2021-03-08T13:13:01-03:00</lastmod>
-  </url><url>
-    <loc>https://example.com/teste/</loc>
-    <lastmod>2021-03-08T13:13:01-03:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post1/</loc>
+    <loc>https://laischaves.xyz/post1/</loc>
     <lastmod>2021-03-08T13:10:42-03:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://laischaves.xyz/about/</loc>
     <lastmod>2021-03-08T13:08:23-03:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://laischaves.xyz/categories/</loc>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://laischaves.xyz/tags/</loc>
   </url>
 </urlset>

@@ -2,22 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Laís Chaves</title>
-    <link>https://example.com/posts/</link>
+    <link>https://laischaves.xyz/posts/</link>
     <description>Recent content in Posts on Laís Chaves</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 08 Mar 2021 13:13:01 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 08 Mar 2021 15:06:59 -0300</lastBuildDate>
     
-	<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://laischaves.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Chocolatey, o que é e por que usar?</title>
+      <link>https://laischaves.xyz/chocolatey-o-que-%C3%A9-e-por-que-usar/</link>
+      <pubDate>Mon, 08 Mar 2021 15:06:59 -0300</pubDate>
+      
+      <guid>https://laischaves.xyz/chocolatey-o-que-%C3%A9-e-por-que-usar/</guid>
+      <description>Chocolatey, O que é e por que usar? Pro usuário comum, qualquer linha de comando é assustadora no primeiro contato. Confesso que até hoje tenho um cuidado a mais quando faço alterações no meu sistema diretamente no Powershell. Porém, depois do costume, não é dificil enxergar a utilidade e praticidade de usar aplicações direto da linha de comando de um terminal.
+E é isto que o Chocolatey é, uma aplicação de terminal, mais especificamente, para o Windows Powershell.</description>
+    </item>
     
     
     
     <item>
       <title>Teste</title>
-      <link>https://example.com/teste/</link>
+      <link>https://laischaves.xyz/teste/</link>
       <pubDate>Mon, 08 Mar 2021 13:13:01 -0300</pubDate>
       
-      <guid>https://example.com/teste/</guid>
+      <guid>https://laischaves.xyz/teste/</guid>
       <description>Here we go again! don&amp;rsquo;t you grow up in a hurry
 your mama will be worried, ah
 \n It was all part of the story&amp;hellip;

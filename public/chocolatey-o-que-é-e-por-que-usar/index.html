@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal blog.">
+    
+    <link rel="shortcut icon" href="https://laischaves.xyz/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Chocolatey, o que é e por que usar?</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://laischaves.xyz">Laís Chaves</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="sobre">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Chocolatey, o que é e por que usar?</h1><time>March 8, 2021</time></header><h1 id="chocolatey-o-que-é-e-por-que-usar">Chocolatey, O que é e por que usar?</h1>
+<p>Pro usuário comum, qualquer linha de comando é assustadora no primeiro contato. Confesso que até hoje tenho um cuidado a mais quando faço alterações no meu sistema diretamente no Powershell. Porém, depois do costume, não é dificil enxergar a utilidade e praticidade de usar aplicações direto da linha de comando de um terminal.</p>
+<p>E é isto que o Chocolatey é, uma aplicação de terminal, mais especificamente, para o Windows Powershell.</p>
+<h3 id="pra-que-serve">Pra que serve?</h3>
+<p>O Chocolatey é simplesmente uma aplicação para administrar os softwares do seu computador, realizando tarefas como instalação, atualização, pesquisa e etc. Isso é feito de forma segura, o software tem código aberto e possui o maior registro de pacotes do Windows online. Esses pacotes possuem os itens necessários para administrar qualquer software, juntando arquivos de instalação, executaveis, scripts e afins num unico pacote compilado. <a href="https://chocolatey.org/products#foss">Chocolatey, 2021</a></p>
+<p>Isso tudo facilita a admistração dos softwares instalados no seu PC, já que você pode gerir todos eles pelo terminal, realizando múltiplas tarefas com pouquíssimos comandos. Em contraste, baixar vários arquivos de instalação e lotar sua pasta de downloads e ter que lidar com o Painel de Controle do Windows para desinstalar vários programas, é um tanto desgastoso.</p>
+<p>Logo, pode ir confiante no Chocolatey, instalar software da internet nunca foi tão simples no Windows. Por ser open source, tudo é meticulosamente inspencionado para impedir a entrada de qualquer software malicioso no seu computador.</p>
+<h3 id="como-eu-instalo">Como eu instalo?</h3>
+<p>Você pode instalar o Chocolatey no seu computador abrindo o Powershell no modo administrador e conferindo que a politica de execução (<code>Get-ExecutionPolicy</code>) não está restrita (<code>Restricted</code>), basta executar o comando a seguir:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">Set-ExecutionPolicy Bypass -Scope Process -Force<span class="p">;</span> <span class="o">[</span>System.Net.ServicePointManager<span class="o">]</span>::SecurityProtocol <span class="o">=</span> <span class="o">[</span>System.Net.ServicePointManager<span class="o">]</span>::SecurityProtocol -bor 3072<span class="p">;</span> iex <span class="o">((</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadString<span class="o">(</span><span class="s1">&#39;https://chocolatey.org/install.ps1&#39;</span><span class="o">))</span>
+</code></pre></div><p>Caso o comando <code>Get-ExecutionPolicy</code> te retorne o valor <code>Restricted</code>, basta executar <code>Set-ExecutionPollicy AllSigned</code> ou <code>Set-ExecutionPolicy Bypass -Scope Process</code> e executar o comando de instação anterior.
+Para chegar se a instalação deu certo, basta rodar o comando <code>choco</code>.</p>
+<p>No website oficial do software, existe um tutorial mais detalhado da instalação: <a href="https://chocolatey.org/install">Install Chocolatey</a></p>
+<h3 id="como-eu-instalo-o-software-_x_-com-o-chocolatey">Como eu instalo o software <em>x</em> com o Chocolatey?</h3>
+<p>Essa é a parte mais intuitiva, se tu já não souber o nome do pacote, você pode ir até a página de <em>Packages</em> (pacotes) do Chocolatey. O endereço é <a href="https://chocolatey.org/packages,">https://chocolatey.org/packages,</a> nele você vai encontrar mais de  <em>8 mil</em> pacotes que são mantidos pela comunidade. Um exemplo é o do Mozilla Firefox, que já recebeu mais de 289 mil downloads.</p>
+<p>Para instalar o navegador Mozilla Firefox através do Chocolatey, basta abrir o Powershell e rodar o comando:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">choco install firefox
+</code></pre></div><p>E isso serve pra todos os outros pacotes, a sintax é a mesma: choco install &ldquo;nome do pacote&rdquo;. Fácil de lembrar.</p>
+<p>Pra atualizar o Firefox, o comando é o seguinte:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">choco upgrade firefox
+</code></pre></div><p>Simples né?</p>
+<p>Bom, você pode aprender muito mais sobre o Chocolatey no website oficial: <a href="https://chocolatey.org/">Chocolatey</a>. Lá você encontra mais comandos e ferramentas e também a documentação do software. É uma leitura interessante.</p>
+<p>Espero que esse post te ajude e te informe de alguma forma. Se sim, considere compartilhar com um amigo, não deixe de passar o conhecimento pra frente. Obrigada!</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2021 Laís Chaves
+</footer>
+</body>
+</html>
